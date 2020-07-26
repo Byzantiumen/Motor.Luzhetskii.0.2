@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="12" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
@@ -23826,14 +23826,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND31" library="Power or GND " deviceset="GND" device=""/>
 <part name="AMS_5" library="AMS1117" deviceset="AMS1117" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C15" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C3" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C15" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="AMS_3" library="AMS1117" deviceset="AMS1117" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C17" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C16" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C17" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="J23" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J25" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
@@ -23845,15 +23845,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="CR" library="SparkFun-Clocks" deviceset="CRYSTAL" device="SMD-3.2X2.5" value="8M"/>
 <part name="C18" library="resistor" deviceset="C-EU" device="C0603" value="22pF"/>
 <part name="C19" library="resistor" deviceset="C-EU" device="C0603" value="22pF"/>
-<part name="C20" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C20" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="C21" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="C22" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C23" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF &lt;- to 48 pin"/>
+<part name="C22" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C23" library="resistor" deviceset="C-EU" device="C0603" value="4.7uF &lt;- to 48 pin"/>
 <part name="C26" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="C27" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="SN65" library="SN65HVD233DR" deviceset="SN65HVD233DR" device=""/>
-<part name="R18" library="resistor" deviceset="R-EU_" device="R0805" value="120Ohm - ???"/>
-<part name="C28" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="R18" library="resistor" deviceset="R-EU_" device="R0603" value="120Ohm - ???"/>
+<part name="C28" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="J27" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J28" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J29" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
@@ -23867,47 +23867,47 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="J37" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J38" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J39" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="R19" library="resistor" deviceset="R-EU_" device="R0805" value="47k"/>
-<part name="R20" library="resistor" deviceset="R-EU_" device="R0805" value="47k"/>
-<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="47k"/>
-<part name="R22" library="resistor" deviceset="R-EU_" device="R0805" value="47k"/>
+<part name="R19" library="resistor" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="R20" library="resistor" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="R21" library="resistor" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="R22" library="resistor" deviceset="R-EU_" device="R0603" value="47k"/>
 <part name="BLC" library="USBLC6-2P6" deviceset="USBLC6-2P6" device=""/>
 <part name="R23" library="resistor" deviceset="R-EU_" device="R0805" value="22"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="R0805" value="22"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="ADS" library="ADS1115IRUGT" deviceset="ADS1115IRUGT" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="ADS1" library="ADS1115IRUGT" deviceset="ADS1115IRUGT" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C5" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="ADS2" library="ADS1115IRUGT" deviceset="ADS1115IRUGT" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C6" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="ADS3" library="ADS1115IRUGT" deviceset="ADS1115IRUGT" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="C31" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C31" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="TLE4945L3" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="TLE4945L1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="TLE4945L2" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="TLE4945L10" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="XL4015" library="XL4015" deviceset="XL4015" device=""/>
-<part name="C32" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C32" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="DIOD" library="DO214AA" deviceset="SK54" device=""/>
 <part name="R5" library="rcl@1" deviceset="R-EU_" device="M0805" value="3k"/>
 <part name="R16" library="rcl@1" deviceset="R-EU_" device="M0805" value="113k"/>
-<part name="C33" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C34" library="resistor" deviceset="C-EU" device="C0805" value="33n"/>
-<part name="C35" library="resistor" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C33" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C34" library="resistor" deviceset="C-EU" device="C0603" value="33n"/>
+<part name="C35" library="resistor" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="C36" library="rc-master-smd" deviceset="CP_" device="SV-D" value="220u"/>
 <part name="C37" library="rc-master-smd" deviceset="CP_" device="SV-D" value="330u"/>
 <part name="L2" library="srr1208" deviceset="SRR1208" device=""/>
-<part name="C38" library="rcl" deviceset="C-EU" device="C0805" value="0.1µF"/>
+<part name="C38" library="rcl" deviceset="C-EU" device="C0603" value="0.1µF"/>
 <part name="USB" library="usb_con-update" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST"/>
 <part name="X2" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="X3" library="con-wago-508" deviceset="W237-02P" device=""/>
@@ -23991,10 +23991,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0603" value="50"/>
 <part name="GND13" library="Power or GND " deviceset="GND" device=""/>
 <part name="GND17" library="Power or GND " deviceset="GND" device=""/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="R1206" value="50"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0603" value="50"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="R0603" value="50"/>
 <part name="GND22" library="Power or GND " deviceset="GND" device=""/>
 <part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="120Ohm - ???"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -24074,7 +24079,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="GND1" gate="1" x="386.08" y="37.846" rot="MR0"/>
 <instance part="R13" gate="G$1" x="313.944" y="139.7" rot="R90"/>
 <instance part="C2" gate="G$1" x="306.324" y="134.62" rot="R270"/>
-<instance part="GND3" gate="1" x="320.04" y="145.034" rot="MR180"/>
+<instance part="GND3" gate="1" x="320.04" y="150.622" rot="MR180"/>
 <instance part="CR" gate="G$1" x="390.144" y="78.74"/>
 <instance part="C18" gate="G$1" x="387.604" y="73.66"/>
 <instance part="C19" gate="G$1" x="392.684" y="73.66"/>
@@ -24362,6 +24367,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="VALUE" x="349.25" y="-3.302" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R7" gate="G$1" x="403.86" y="157.48" rot="MR90"/>
+<instance part="R8" gate="G$1" x="546.608" y="193.04" rot="R90"/>
+<instance part="R9" gate="G$1" x="635" y="193.548" rot="R180"/>
+<instance part="R10" gate="G$1" x="642.112" y="137.16" rot="R270"/>
+<instance part="R11" gate="G$1" x="546.608" y="137.668" rot="R270"/>
+<instance part="R14" gate="G$1" x="320.04" y="142.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -24435,12 +24445,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="301.244" y1="134.62" x2="298.704" y2="134.62" width="0.1524" layer="91"/>
 <label x="298.704" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="STM32" gate="G$1" pin="BOOT0"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="322.58" y1="137.16" x2="320.04" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="137.16" x2="320.04" y2="142.494" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
@@ -24812,6 +24816,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="342.9" y1="-1.27" x2="336.804" y2="-1.27" width="0.1524" layer="91"/>
 <wire x1="336.804" y1="-1.27" x2="336.804" y2="2.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="320.04" y1="147.32" x2="320.04" y2="148.082" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -24828,10 +24837,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="514.35" y1="182.626" x2="514.35" y2="181.61" width="0.1524" layer="91"/>
 <junction x="514.35" y="181.61"/>
 <wire x1="512.826" y1="181.61" x2="512.826" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="512.826" y1="198.12" x2="548.64" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="512.826" y1="198.12" x2="546.608" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="ADS" gate="G$1" pin="ADDR"/>
+<wire x1="546.608" y1="198.12" x2="548.64" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="548.64" y1="198.12" x2="548.64" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="548.64" y1="176.53" x2="546.1" y2="176.53" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<junction x="546.608" y="198.12"/>
 </segment>
 <segment>
 <pinref part="ADS1" gate="G$1" pin="VDD"/>
@@ -24848,6 +24860,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="ADS1" gate="G$1" pin="ADDR"/>
 <wire x1="548.64" y1="124.46" x2="548.64" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="548.64" y1="123.19" x2="546.1" y2="123.19" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="546.608" y1="142.748" x2="515.62" y2="142.748" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="142.748" x2="515.62" y2="128.27" width="0.1524" layer="91"/>
+<junction x="515.62" y="128.27"/>
 </segment>
 <segment>
 <pinref part="ADS2" gate="G$1" pin="VDD"/>
@@ -24857,6 +24873,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="608.33" y1="181.61" x2="606.806" y2="181.61" width="0.1524" layer="91"/>
 <wire x1="608.33" y1="182.626" x2="608.33" y2="181.61" width="0.1524" layer="91"/>
 <junction x="608.33" y="181.61"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="629.92" y1="193.548" x2="609.6" y2="193.548" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="193.548" x2="609.6" y2="181.61" width="0.1524" layer="91"/>
+<junction x="609.6" y="181.61"/>
 </segment>
 <segment>
 <pinref part="ADS3" gate="G$1" pin="VDD"/>
@@ -24866,6 +24886,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="608.33" y1="128.27" x2="606.806" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="608.33" y1="129.286" x2="608.33" y2="128.27" width="0.1524" layer="91"/>
 <junction x="608.33" y="128.27"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="642.112" y1="142.24" x2="609.6" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="142.24" x2="609.6" y2="128.27" width="0.1524" layer="91"/>
+<junction x="609.6" y="128.27"/>
 </segment>
 <segment>
 <pinref part="AMS_5" gate="G$1" pin="VOUT"/>
@@ -26853,6 +26877,44 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="204.216" y1="115.57" x2="203.2" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="99.06" x2="203.2" y2="115.57" width="0.1524" layer="91"/>
 <junction x="203.2" y="99.06"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="ADS" gate="G$1" pin="ALERT/RDY"/>
+<wire x1="546.608" y1="187.96" x2="546.608" y2="181.61" width="0.1524" layer="91"/>
+<wire x1="546.608" y1="181.61" x2="546.1" y2="181.61" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="ADS2" gate="G$1" pin="ALERT/RDY"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="640.08" y1="181.61" x2="640.08" y2="193.548" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="ADS3" gate="G$1" pin="ALERT/RDY"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="640.08" y1="128.27" x2="642.112" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="642.112" y1="128.27" x2="642.112" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="ADS1" gate="G$1" pin="ALERT/RDY"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="546.1" y1="128.27" x2="546.608" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="546.608" y1="128.27" x2="546.608" y2="132.588" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="BOOT0"/>
+<wire x1="322.58" y1="137.16" x2="320.04" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
